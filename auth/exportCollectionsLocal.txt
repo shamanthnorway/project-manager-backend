@@ -1,0 +1,5 @@
+mongoexport -d projectManager -c teams --out teams.json
+mongoexport -d projectManager -c tasks --out tasks.json
+mongoexport -d projectManager -c tickets --out tickets.json
+mongoexport -d projectManager -c wikis --out wikis.json
+mongoexport -d projectManager -c users --out users.json

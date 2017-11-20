@@ -1,0 +1,5 @@
+mongoexport -h ds135522.mlab.com:35522 -d project-manager -c teams -u projectManagerAdmin -p th1s1sDb35tApp --file teams.json
+mongoexport -h ds135522.mlab.com:35522 -d project-manager -c tasks -u projectManagerAdmin -p th1s1sDb35tApp --file tasks.json
+mongoexport -h ds135522.mlab.com:35522 -d project-manager -c tickets -u projectManagerAdmin -p th1s1sDb35tApp --file tickets.json
+mongoexport -h ds135522.mlab.com:35522 -d project-manager -c wikis -u projectManagerAdmin -p th1s1sDb35tApp --file wikis.json
+mongoexport -h ds135522.mlab.com:35522 -d project-manager -c users -u projectManagerAdmin -p th1s1sDb35tApp --file users.json

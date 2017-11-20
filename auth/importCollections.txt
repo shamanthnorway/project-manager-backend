@@ -1,0 +1,5 @@
+mongoimport -h ds135522.mlab.com:35522 --drop -d project-manager -c teams -u projectManagerAdmin -p th1s1sDb35tApp --file teams.json
+mongoimport -h ds135522.mlab.com:35522 --drop -d project-manager -c tasks -u projectManagerAdmin -p th1s1sDb35tApp --file tasks.json
+mongoimport -h ds135522.mlab.com:35522 --drop -d project-manager -c tickets -u projectManagerAdmin -p th1s1sDb35tApp --file tickets.json
+mongoimport -h ds135522.mlab.com:35522 --drop -d project-manager -c wikis -u projectManagerAdmin -p th1s1sDb35tApp --file wikis.json
+mongoimport -h ds135522.mlab.com:35522 --drop -d project-manager -c users -u projectManagerAdmin -p th1s1sDb35tApp --file users.json
